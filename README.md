@@ -27,16 +27,17 @@ Python Desktop Assistant
 To run PyDA locally on your machine, follow these quick steps:
 
 ### 1. Clone the Workspace
- ```bash
- git clone [https://github.com/YOUR_USERNAME/PyDA-Desktop-Assistant.git](https://github.com/YOUR_USERNAME/PyDA-   Desktop-Assistant.git)
- cd PyDA-Desktop-Assistant
-
+  ```bash
+  git clone [https://github.com/YOUR_USERNAME/PyDA-Desktop-Assistant.git](https://github.com/YOUR_USERNAME/PyDA-   Desktop-Assistant.git)
+  cd PyDA-Desktop-Assistant
+  ```
 
 ### 2. Install Dependencies
   ```bash
   pip install requests wikipedia python-dotenv
+  ```
 
-### 3. 3. Configure Your Secret API Key 🔑
+### 3. Configure Your Secret API Key 🔑
 You will need to plug in your own free WolframAlpha App ID:
 
 Sign up for a developer account at WolframAlpha.
@@ -48,6 +49,7 @@ In the root folder of this project, create a file named exactly .env.
 Add your key inside the file like this (no spaces, no quotes!):
 ```bash
 WOLFRAM_APP_ID=YOUR_ACTUAL_APP_ID_HERE
+```
 
 ## 4. Run the Assistant! 🚀
 Launch the user interface by running GUI.py:
